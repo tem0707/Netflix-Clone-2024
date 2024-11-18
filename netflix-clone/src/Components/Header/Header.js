@@ -29,9 +29,9 @@ const Header = () => {
             <li>
               <searchIcon />
             </li>
-            <li>
+            {/* <li>
               <NotificationNoneIcon />
-            </li>
+            </li> */}
             <li>
               <AccountBoxIcon />
             </li>
