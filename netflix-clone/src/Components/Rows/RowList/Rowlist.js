@@ -1,5 +1,5 @@
 import React from "react";
-import Row from "../Row/row";
+import Row from "../Row/Row";
 import requests from "../../../Utils/requests";
 
 const Rowlist = () => {
@@ -8,7 +8,7 @@ const Rowlist = () => {
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
-        islargeRow={true}
+        isLargeRow={true}
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />

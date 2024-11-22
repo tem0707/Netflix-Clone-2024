@@ -5,12 +5,14 @@ import Banner from "../../Components/Banner/banner";
 import Rowlist from "../../Components/Rows/RowList/Rowlist";
 
 const Home = () => {
-  return;
-  <>
-    <Header />
-    <Banner />
-    <Rowlist />
-    <Footer />
-  </>;
+  return (
+    <>
+      <Header />
+      <Banner />
+      <Rowlist />
+      <Footer />
+    </>
+  );
 };
+
 export default Home;
